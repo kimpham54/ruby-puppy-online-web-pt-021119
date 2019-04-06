@@ -13,7 +13,7 @@ def self.all
 end
 end
 
-def initialize(name)
-  @@all.push(name)
+def initialize()
+  @@all.push(self)
 end
 end
