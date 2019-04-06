@@ -3,10 +3,12 @@ class Dog
   @@all = []
 
   self.clear_all
+  @@all.clear()
 end
 
 
 self.all
+puts "#{@@all}"
 end
 
 def initialize(name)
