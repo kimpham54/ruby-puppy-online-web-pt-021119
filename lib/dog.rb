@@ -11,6 +11,7 @@ def self.all
 @@all.each do |item|
   puts "#{item}"
 end
+end
 
 def initialize(name)
   @@all.push(name)
