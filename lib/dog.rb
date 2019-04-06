@@ -15,5 +15,6 @@ end
 
 def initialize(name)
   @@all.push(name)
+  @name = name
 end
 end
