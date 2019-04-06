@@ -14,7 +14,7 @@ end
 end
 
 def initialize(name)
-  @@all.push(name)
+  @@all.push(self)
   @name = name
 end
 end
