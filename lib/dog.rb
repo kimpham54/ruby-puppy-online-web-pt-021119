@@ -14,3 +14,4 @@ end
 def initialize(name)
   @@all.push(name)
 end
+end
