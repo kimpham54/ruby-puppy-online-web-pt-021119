@@ -2,12 +2,12 @@ class Dog
   attr_accessor :name
   @@all = []
 
-  self.clear_all
+def self.clear_all
   @@all.clear()
 end
 
 
-self.all
+def self.all
 puts "#{@@all}"
 end
 
